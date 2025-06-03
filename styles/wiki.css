@@ -1,0 +1,115 @@
+:root {
+    --wkcolor-powder: #FDFFF7;
+    --wkcolor-paper: #E2E8DD;
+    --wkcolor-bone: #DDDBCB;
+    --wkcolor-lace: #F5F1E3;
+    --wkcolor-grey: #45424C;
+    --wkcolor-jet: #333138;
+    --wkcolor-black: #000103;
+    --wkcolor-sage: #638475;
+    --wkcolor-blue: #6D98BA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--wkcolor-powder);
+}
+
+section#wikiNav {
+    height: 600px;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.large-header {
+    font-size: 2.38rem;
+}
+.big-header {
+    font-size: 2rem;
+}
+.medium-header {
+    font-size: 1.235rem;
+}
+.normal-text {
+    font-size: 1.08rem;
+}
+
+.wikiHeader {
+    display: inline-block;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    background-color: var(--wkcolor-grey);
+    width: 100%;
+    color: var(--wkcolor-powder);
+    border-top: var(--wkcolor-jet) solid 0.25rem;
+    border-bottom: var(--wkcolor-jet) solid 0.16rem;
+    z-index: 10;
+}
+.wikiHeader > a {
+    font-size: 1.235rem;
+    margin-right: 1rem;
+    padding-right: 0.5rem;
+    position: relative;
+    opacity: 1.0;
+}
+.wikiHeader > a:hover {
+    opacity: 0.8;
+}
+.wikiLinks {
+    display: inline-flex;
+    font-size: 1.08rem;
+}
+.wikiLinks > li {
+    margin: 1rem 1.5rem;
+    list-style-type: none;
+    position:relative;
+    width: fit-content;
+    transition: 100ms opacity;
+}
+.wikiLinks > li:hover {
+    opacity: 0.8;
+}
+.wikiLinks > li::after {
+    content: "";
+    bottom: -2px; left: 0;
+    height: 1px; width: 0%;
+    background: var(--wkcolor-powder);
+    position: absolute;
+    transition: 100ms width;
+}
+.wikiLinks > li:hover:after {
+    content: "";
+    bottom: -2px; left: 0;
+    height: 1px; width: 100%;
+    background: var(--wkcolor-powder);
+    position: absolute;
+}
+#wikiEnvironment {
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    z-index: 20;
+    min-height: calc(100vh - 74px);
+}
+.wikiNav {
+    background-color: var(--wkcolor-grey);
+    padding: 0.5rem 0.25rem;
+    color: var(--wkcolor-powder);
+    font-size: 1.08rem;
+    text-align: center;
+    font-weight: 100;
+}
+#wikiContent {
+    background-color: var(--wkcolor-grey);
+    box-shadow: inset 2px 2px 8px 8px var(--wkcolor-jet);
+    overflow: scroll;
+}
+
+.content-container {
+    padding: 1.5rem 2.5rem;
+}
+.hero-blurb {
+    margin: 0.125rem 0;
+    font-size: 1.08rem;
+}
