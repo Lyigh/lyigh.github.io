@@ -38,9 +38,11 @@ function hyperfixationArticleInterpolater(item) {
     const x = item.type;
     switch (x) {
         case 'table-of-contents':
-
+            //runs something else
     }
 }
+
+
 
 window.addEventListener('DOMContentLoaded', updateContent)
 window.addEventListener('hashchange', updateContent)
