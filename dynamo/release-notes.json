@@ -1,0 +1,74 @@
+{
+    "name": "Release Notes",
+    "style": "sectioned",
+    "items": [
+        {
+            "section": "Release 2.4",
+            "id": "r2-4",
+            "content": [
+                {
+                    "element": "h1",
+                    "value": "Release 2.4: Oceans and Adventures"
+                },
+                {
+                    "element": "p",
+                    "value": "Hello! I'm so excited that the day is finally here! 2.4, which started development over a month ago (sigh), has gone through several evolutions to become what it is today.\n Although this could be considered a full-sized release, I am still calling this a pre-version to 3.0, in which this pack is building towards. Anyways, this update commits to a great deal of changes that I hope will provide you a more unique and engaging Minecraft experience. Reading through the provided sections will give you a great advantage, but it's up to you."
+                },
+                {
+                    "element": "article",
+                    "type": "table-of-contents",
+                    "value": [
+                        {
+                            "text": "Healing Rework",
+                            "href": "?healing-rework"
+                        },
+                        {
+                            "text": "Food Buffs",
+                            "href": "?food-buffs"
+                        },
+                        {
+                            "text": "Weapon Damage Rework",
+                            "href": "?weapon-damage-rework"
+                        },
+                        {
+                            "text": "Transportation Methods",
+                            "href": "?transportation-methods"
+                        },
+                        {
+                            "text": "New Loot Tables (Overworld Netherite)",
+                            "href": "?new-loot-tables"
+                        },
+                        {
+                            "text": "Miscellaneous Changes",
+                            "href": "?misc-changes"
+                        }
+                    ]
+                },
+                {
+                    "element": "h2",
+                    "id": "healing-rework",
+                    "value": "Healing Rework"
+                },
+                {
+                    "element": "p",
+                    "value": "information about the healing rework"
+                }
+            ]
+        },
+        {
+            "section": "Older Releases",
+            "id": "pre",
+            "content": [
+                {
+                    "element": "p",
+                    "value": "There is no release notes for versions prior to 2.4."
+                },
+                {
+                    "element": "a",
+                    "text": "Return to Overview",
+                    "href": "/dynamo-index.html#release-notes"
+                }
+            ]
+        }
+    ]
+}

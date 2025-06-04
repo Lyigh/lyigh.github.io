@@ -1,0 +1,16 @@
+[
+    {
+        "name": "About",
+        "style": "home",
+        "items": [
+            {
+                "element": "h1",
+                "value": "About Me"
+            },
+            {
+                "element": "p",
+                "value": "This is the about page. This page is heavily work in progress."
+            }
+        ]
+    }
+]

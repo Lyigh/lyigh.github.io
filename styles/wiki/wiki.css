@@ -10,10 +10,17 @@
     --wkcolor-blue: #6D98BA;
 }
 
+@font-face {
+    font-family: 'Cormorant_Garamond';
+    src: url(/font/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cormorant_Garamond';
+    font-weight: 500;
     color: var(--wkcolor-powder);
 }
 
@@ -27,8 +34,11 @@ section#wikiNav {
 .large-header {
     font-size: 2.38rem;
 }
-.big-header {
+.bigger-header {
     font-size: 2rem;
+}
+.big-header {
+    font-size: 1.54rem;
 }
 .medium-header {
     font-size: 1.235rem;
@@ -37,79 +47,75 @@ section#wikiNav {
     font-size: 1.08rem;
 }
 
-.wikiHeader {
+
+
+
+
+
+
+#wiki-header {
     display: inline-block;
     padding: 0.5rem 0 0.5rem 1.5rem;
     background-color: var(--wkcolor-grey);
     width: 100%;
-    color: var(--wkcolor-powder);
     border-top: var(--wkcolor-jet) solid 0.25rem;
     border-bottom: var(--wkcolor-jet) solid 0.16rem;
     z-index: 10;
 }
-.wikiHeader > a {
-    font-size: 1.235rem;
+#wiki-header > a {
     margin-right: 1rem;
     padding-right: 0.5rem;
     position: relative;
     opacity: 1.0;
 }
-.wikiHeader > a:hover {
+#wiki-header > a:hover {
     opacity: 0.8;
 }
-.wikiLinks {
+#wiki-header-links {
     display: inline-flex;
-    font-size: 1.08rem;
 }
-.wikiLinks > li {
+#wiki-header-links > li {
     margin: 1rem 1.5rem;
     list-style-type: none;
     position:relative;
     width: fit-content;
     transition: 100ms opacity;
 }
-.wikiLinks > li:hover {
+#wiki-header-links > li > a{
+    text-decoration: none;
+}
+#wiki-header-links > li:hover {
     opacity: 0.8;
 }
-.wikiLinks > li::after {
+#wiki-header-links > li::after {
     content: "";
     bottom: -2px; left: 0;
-    height: 1px; width: 0%;
+    height: 2px; width: 0%;
     background: var(--wkcolor-powder);
     position: absolute;
     transition: 100ms width;
+    opacity: 0.8;
 }
-.wikiLinks > li:hover:after {
-    content: "";
-    bottom: -2px; left: 0;
-    height: 1px; width: 100%;
-    background: var(--wkcolor-powder);
-    position: absolute;
+#wiki-header-links > li:hover:after {
+    width: 100%;
 }
-#wikiEnvironment {
+
+/*ENVIRONMENT*/
+#wiki-environment {
     display: grid;
     grid-template-columns: 16vw 1fr;
     z-index: 20;
-    min-height: calc(100vh - 74px);
+    min-height: calc(100vh - 78px);
 }
-.wikiNav {
+#navigation {
     background-color: var(--wkcolor-grey);
     padding: 0.5rem 0.25rem;
-    color: var(--wkcolor-powder);
     font-size: 1.08rem;
     text-align: center;
     font-weight: 100;
 }
-#wikiContent {
+#content {
     background-color: var(--wkcolor-grey);
     box-shadow: inset 2px 2px 8px 8px var(--wkcolor-jet);
     overflow: scroll;
-}
-
-.content-container {
-    padding: 1.5rem 2.5rem;
-}
-.hero-blurb {
-    margin: 0.125rem 0;
-    font-size: 1.08rem;
 }

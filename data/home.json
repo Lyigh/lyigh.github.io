@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Homepage",
+        "style": "home",
+        "items": [
+            {
+                "element": "h1",
+                "value": "Home"
+            },
+            {
+                "element": "p",
+                "value": "Welcome to my Homepage. I develop Minecraft modpacks and mods using JavaScript and Java."
+            },
+            {
+                "element": "article",
+                "type": "links",
+                "value": [
+                    {
+                        "text": "Dynamo's Respite Wiki",
+                        "href": "dynamo-index.html"
+                    }
+                ]
+            }
+        ]
+    }
+]

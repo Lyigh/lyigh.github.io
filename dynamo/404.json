@@ -1,0 +1,14 @@
+{
+    "name": "404 Not Found",
+    "style": "overview",
+    "items": [
+        {
+            "element": "h1",
+            "value": "404"
+        },
+        {
+            "element": "p",
+            "value": "This chapter could not be fetched."
+        }
+    ]
+}
