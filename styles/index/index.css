@@ -1,0 +1,52 @@
+/*Main Page Template*/
+:root {
+    --wkcolor-powder: #FDFFF7;
+    --wkcolor-paper: #E2E8DD;
+    --wkcolor-bone: #DDDBCB;
+    --wkcolor-lace: #F5F1E3;
+    --wkcolor-grey: #45424C;
+    --wkcolor-jet: #333138;
+    --wkcolor-black: #000103;
+    --wkcolor-sage: #638475;
+    --wkcolor-blue: #6D98BA;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.floating-menu-light {
+    height: 6rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.floating-menu-light > a {
+    margin: 0 1rem;
+    color: var(--wkcolor-jet);
+    font-size: 1.08rem;
+    text-decoration: none;
+    transition: 200ms opacity;
+    position: relative;
+}
+.floating-menu-light > a:hover {
+    opacity: 0.8;
+}
+.floating-menu-light > a:last-child:after {
+    content: "";
+    bottom: -2px; left: 0;
+    height: 2px; width: 0%;
+    background: var(--wkcolor-jet);
+    position: absolute;
+    transition: 200ms width;
+}
+.floating-menu-light > a:last-child:hover::after {
+    width: 100%;
+}
+
+.body-light {
+    background: var(--wkcolor-powder);
+    height: 100vh;
+}

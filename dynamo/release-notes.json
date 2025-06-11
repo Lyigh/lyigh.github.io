@@ -1,0 +1,233 @@
+{
+    "name": "Release Notes",
+    "style": "wiki",
+    "items": [
+        {
+            "section": "Release 2.4",
+            "id": "r2-4",
+            "content": [
+                {
+                    "element": "h1",
+                    "value": "Release 2.4: Oceans and Adventures"
+                },
+                {
+                    "element": "p",
+                    "value": "Hello! I'm so excited that the day is finally here! 2.4, which started development over a month ago (sigh), has gone through several evolutions to become what it is today.",
+                    "post": "br"
+                },
+                {
+                    "element": "p",
+                    "value": "Although this could be considered a full-sized release, I am still calling this a pre-version to 3.0, in which this pack is building towards. Anyways, this update commits to a great deal of changes that I hope will provide you a more unique and engaging experience. Reading through the provided sections will give you a great advantage."
+                },
+                {
+                    "element": "article",
+                    "type": "table-of-contents",
+                    "value": [
+                        {
+                            "text": "Healing Rework",
+                            "href": "#release-notes?healing-rework"
+                        },
+                        {
+                            "text": "Food Buffs",
+                            "href": "#release-notes?food-buffs"
+                        },
+                        {
+                            "text": "Weapon Damage Rework",
+                            "href": "?weapon-damage-rework"
+                        },
+                        {
+                            "text": "Transportation Methods",
+                            "href": "?transportation-methods"
+                        },
+                        {
+                            "text": "New Loot Tables (Overworld Netherite)",
+                            "href": "?new-loot-tables"
+                        },
+                        {
+                            "text": "Miscellaneous Changes",
+                            "href": "?misc-changes"
+                        }
+                    ]
+                },
+                {
+                    "element": "h2",
+                    "id": "healing-rework",
+                    "value": "Healing Rework"
+                },
+                {
+                    "element": "p",
+                    "value": "Those bandages were giving us all trouble. Heck, I found myself using my gapples more often than the relatively cheap healing salves that took 3 business days to apply.",
+                    "post": "br"
+                },
+                {
+                    "element": "p",
+                    "value": "2.4 makes healing easier and quicker, introducting a new status effect: Glass Regeneration."
+                },
+                {
+                    "element": "h3",
+                    "value": "Glass Regeneration and Bandages"
+                },
+                {
+                    "element": "p",
+                    "value": "Glass Regeneration is a sub-tier of regeneration that will heal you slowly, as long as you are not currently taking damage. It is important to note that, in this pack, <span style=\"text-decoration: underline;\">natural healing from eating is almost completely disabled<span>",
+                    "post": "br"
+                },
+                {
+                    "element": "p",
+                    "value": "The new Bandages can be crafted with 7 string, and will provide Glass Regeneration for 1 minute and 30 seconds."
+                },
+                {
+                    "element": "p",
+                    "value": "Golden Bandages can be crafted with 1 Bandage and 8 Golden Nuggets. They will provide the following effects:"
+                },
+                {
+                    "element": "article",
+                    "type": "list",
+                    "value": [
+                        {
+                            "element": "p",
+                            "value": "Regneration 2 for 3 seconds."
+                        },
+                        {
+                            "element": "p",
+                            "value": "Glass Regeneration for 1 minute and 30 seconds."
+                        },
+                        {
+                            "element": "p",
+                            "value": "Bleeding Immunity for "
+                        }
+                    ]
+                },
+                {
+                    "element": "h2",
+                    "id": "food-buffs",
+                    "value": "Food Buffs"
+                },
+                {
+                    "element": "p",
+                    "value": "Food Buffs, which can be viewed by pressing \"j\" for by crafing a Food Book, have been majorly overworked. As before, all effects will be reset upon death."
+                },
+                {
+                    "element": "article",
+                    "type": "list",
+                    "title": "List of Achievable Effects",
+                    "value": [
+                        {}
+                    ]
+                },
+                {
+                    "element": "h2",
+                    "id": "weapon-damage-rework",
+                    "value": "Weapon Damage Rework"
+                },
+                {
+                    "element": "p",
+                    "value": "These changes are a bit extreme for this update, but fret not (3.0 will introduce much more difficulty in the nether)."
+                },
+                {
+                    "element": "article",
+                    "type": "list",
+                    "title": "List of Damage Values",
+                    "value": [
+                        {}
+                    ]
+                },
+                {
+                    "element": "p",
+                    "value": "It is important to note that, due to Minecraft restrictions, damage values will be displayed in blue as <span style=\"text-decoration: underline\">an additive<span>."
+                },
+                {
+                    "element": "h3",
+                    "value": "Finding Your True Damage Output"
+                },
+                {
+                    "element": "p",
+                    "value": "As mentioned prior, damage is displayed as an additive, meaning that it will be added onto your Base Damage. Without any artifacts, your damage will be +1"
+                },
+                {
+                    "element": "p",
+                    "value": "You can find your actual damage output (how much you are actually dealing per hit) by crafting and placing a Target Dummy, which will not only display your Damage per Hit, but also your Damage per Second"
+                },
+                {
+                    "element": "h2",
+                    "id": "transportation-methods",
+                    "value": "New Transportation Methods"
+                },
+                {
+                    "element": "article",
+                    "type": "list",
+                    "title": "List of Transportation Methods (All)",
+                    "value": [
+                        {
+                            "element": "p",
+                            "value": "Walking"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Horses (new)"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Boats"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Furnace Boats (new)"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Rowboats"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Sloops"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Airships & Cargo Airships (new)"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Gyrocodone & Thingy (new)"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Trains"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Biplanes, Red Plane, EcoPlanes (new)"
+                        },
+                        {
+                            "element": "p",
+                            "value": "Teleportation"
+                        }
+                    ]
+                },
+                {
+                    "element": "h3",
+                    "value": "Changes to Horses"
+                },
+                {
+                    "element": "p",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "section": "Older Releases",
+            "id": "pre",
+            "content": [
+                {
+                    "element": "p",
+                    "value": "There is no release notes for versions prior to 2.4."
+                },
+                {
+                    "element": "a",
+                    "text": "Return to Overview",
+                    "href": "/dynamo-index.html#release-notes"
+                }
+            ]
+        }
+    ]
+}
