@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cormorant_Garamond';
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     color: var(--wkcolor-powder);
 }
@@ -105,7 +105,6 @@ section#wikiNav {
     display: grid;
     grid-template-columns: 16vw 1fr;
     z-index: 20;
-    min-height: calc(100vh - 78px);
 }
 #navigation {
     background-color: var(--wkcolor-grey);
@@ -113,9 +112,39 @@ section#wikiNav {
     font-size: 1.08rem;
     text-align: center;
     font-weight: 100;
+    max-height: calc(100vh - 78px);
 }
 #content {
     background-color: var(--wkcolor-grey);
     box-shadow: inset 2px 2px 8px 8px var(--wkcolor-jet);
-    overflow: scroll;
+    overflow: auto;
+    padding: 1rem 16rem 1rem 2rem;
+    height: calc(100vh - 78px); 
+    scrollbar-width: 3px;
+}
+
+#content h1  {
+    font-size: 2.088rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#content p {
+    font-size: 1.224rem;
+}
+
+.table-of-contents {
+    padding: 1rem 1rem 1rem 2rem;
+    margin: 1rem 1rem 1rem 0;
+    border: var(--wkcolor-powder) 1px dotted;
+    width: max-content;
+    border-radius: 0.2cap;
+}
+.table-of-contents li {
+    list-style-type:armenian;
+}
+.table-of-contents a {
+    font-size: 1.064rem;
+}
+.table-of-contents h2 {
+    font-size: 1.65rem;
 }
